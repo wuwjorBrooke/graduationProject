@@ -1,1 +1,9 @@
 # graduationProject
+## outputToionpos
+* 将jdftx的输出文件（.out文件）中的每一步ionpos提取出来，分别命名为1step.ionpos，2step.ionpos...
+## ionposTocif
+* 将jdftx的.ionpos文件转化为.cif文件，便于可视化软件查看结构
+## cifToPOSCAR
+* 一般用于将MS导出的cif文件转化为VASP的POSCAR输入文件
+## CONTCAR2ionpos
+* 将VASP的优化结果CONTCAR（文件格式和VASP的输入文件POSCAR相同）转化为jdftx所用到的.ionpos文件
